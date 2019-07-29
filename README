@@ -39,8 +39,6 @@ include it in wordnet-releases folder. Furthermore, it is necessary to download,
 the NASARI lexical vectors here: https://drive.google.com/file/d/1HqdnFZu__6aAids9p5di8vhURNrhw8Xw/view?usp=sharing
 and put it into the resources folder. 
 
-here: https://drive.google.com/file/d/1HqdnFZu__6aAids9p5di8vhURNrhw8Xw/view?usp=sharing 
-and 
 For testing purposes we provide a shell script:
 
 		Linux:  run-clustydemo.sh, make sure that the file is 
