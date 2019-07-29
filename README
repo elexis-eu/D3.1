@@ -1,0 +1,74 @@
+-----------------------------------------------------------------
+README - Clusty v1.0
+
+Linguistic Computing Laboratory
+Sapienza University of Rome
+http://lcl.uniroma1.it
+-----------------------------------------------------------------
+
+This package consists of a piece of software for sense clustering 
+based on the WordNet sense inventory. The approach leverages the 
+knowledge contained in Wikipedia for building NASARI lexical vectors.
+
+--------
+CONTENTS
+--------
+
+This package contains the following main components:
+
+  clusty-1.0.jar      # Jar of Clusty
+  clusty-1.0_lib/     # third party libraries
+  resources/          # this folder contains the lexical vectors  
+  LICENSE             # Clusty's license
+  README              # this file
+  pom.xml             # Maven pom file
+  run-clustydemo.sh   # shell script to test Babelfy in Linux
+
+------------
+REQUIREMENTS
+------------
+
+We assume that you have a standard installation of the Oracle Java 1.8 JDK
+and all the associated programs (i.e., java, javac, etc.) in your path.
+
+------------
+INSTALLATION
+------------
+
+In order to use Clusty, it is necessary to download WordNet 3.0 and 
+include it in wordnet-releases folder. 
+For testing purposes we provide a shell script:
+
+		Linux:  run-clustydemo.sh, make sure that the file is 
+			executable by running: chmod +x run-clustydemo.sh
+			
+In order to run Clusty, please specify the following instruction: 
+	java -jar clusty-1.0.jar <lemma>|--all <n,a,r,v,all>  
+
+-------
+AUTHORS
+-------
+
+Federico Martelli, Sapienza University of Rome
+(martelli@di.uniroma1.it)
+
+Roberto Navigli, Sapienza University of Rome
+(navigli@di.uniroma1.it)
+
+Acknowledgments go to Dario Montagnini, Babelscape 
+(montagnini@babelscape.com), for his contribution to the project. 
+
+---------
+COPYRIGHT
+---------
+
+Clusty is licensed under a Creative Commons Attribution-Noncommercial-
+Share Alike 4.0 License. See the LICENSE file for details.
+
+---------------
+ACKNOWLEDGMENTS
+---------------
+
+Clusty is an output of the ELEXIS project (https://elex.is). This project has
+received funding from the European Union's Horizon 2020 research and innovation
+programme under grant agreement No. 731015.
